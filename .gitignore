@@ -1,3 +1,7 @@
 hack-main/nb-configuration.xml
 hack-main/nbactions.xml
 hack-main/target
+.idea/
+fxhack.iml
+hack-main/hack-main.iml
+
