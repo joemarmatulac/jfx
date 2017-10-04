@@ -1,0 +1,25 @@
+.login2AnchorPane{
+    -fx-background-color: #2F5D5D;
+}
+
+.login2AnchorePaneCont{
+    -fx-background-color: #A84747;
+}
+
+.usernameLabel{
+    -fx-text-fill: #FFFFFF;
+    -fx-prompt-text-fill: #FFFFFF;
+}
+
+.passwordField{
+    -fx-background-color: #A84747;
+    -fx-prompt-text-fill: #FFFFFF;
+}
+
+.signinButton{
+    -fx-background-color: #A84747;
+}
+
+.exitButton{
+    -fx-background-color: #A84747;
+}

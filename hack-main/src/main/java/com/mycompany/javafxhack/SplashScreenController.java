@@ -85,7 +85,7 @@ public class SplashScreenController implements Initializable  {
                     fadeTransition1.setToValue(0.1);
                     fadeTransition1.play();
                     fadeTransition1.setOnFinished(event5 -> {
-                        application.closeStage();
+                        //application.closeStage();
                     });
                 }
         );

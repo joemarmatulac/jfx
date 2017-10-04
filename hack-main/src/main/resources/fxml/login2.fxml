@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="821.0" styleClass="login2AnchorPane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxhack.Login2Controller">
+   <children>
+      <AnchorPane layoutX="449.0" layoutY="36.0" prefHeight="328.0" prefWidth="321.0" styleClass="login2AnchorePaneCont">
+         <children>
+            <JFXTextField id="uname" focusColor="#609bcc" layoutX="41.0" layoutY="123.0" prefHeight="25.0" prefWidth="240.0" promptText="username/email" styleClass="usernameLabel" unFocusColor="#b98585">
+               <effect>
+                  <ColorAdjust />
+               </effect></JFXTextField>
+            <JFXPasswordField focusColor="#234dc9" layoutX="41.0" layoutY="197.0" opacity="0.89" prefHeight="25.0" prefWidth="240.0" promptText="password" styleClass="passwordField" unFocusColor="#c38282">
+               <effect>
+                  <Blend />
+               </effect></JFXPasswordField>
+            <JFXButton layoutX="49.0" layoutY="242.0" prefHeight="27.0" prefWidth="224.0" styleClass="signinButton" text="Sign in" textFill="#e7b7b7" />
+            <Label layoutX="131.0" layoutY="44.0" text="Sign In" textFill="#dad5d5">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="109.0" layoutY="285.0" prefHeight="17.0" prefWidth="105.0" text="Forgot password?" textAlignment="CENTER" textFill="#e7b7b7" underline="true">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="400.0" fitWidth="398.0" layoutX="-1.0" opacity="0.26" pickOnBounds="true">
+         <image>
+            <Image url="@../img/login.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="160.0" prefHeight="31.0" prefWidth="250.0" text="Welcome to Ma`Life" textFill="#ddcdcd">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="183.0" prefHeight="17.0" prefWidth="147.0" text="A complicated place to be." textFill="#e1c8c8">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="75.0" layoutY="210.0" prefHeight="27.0" prefWidth="121.0" styleClass="exitButton" text="Sign up now" textFill="#e7b7b7" />
+      <Label layoutX="806.0" layoutY="3.0" onMouseClicked="#handleOnclose" text="x" textFill="#e1a9a9">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+    <stylesheets>
+        <URL value="@../styles/login2.css" />
+    </stylesheets>
+</AnchorPane>
