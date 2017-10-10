@@ -2,7 +2,6 @@ package com.mycompany.javafxhack;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -15,14 +14,6 @@ public class Application extends javafx.application.Application{
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn24.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn32.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn64.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn128.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn256.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn512.ico")));
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/img/jaricn/appicn16.ico")));
-
         FXMLLoader root = new FXMLLoader();
         AnchorPane pane = root.load(getClass().getResource("/fxml/login2.fxml"));
         Scene scene = new Scene(pane);

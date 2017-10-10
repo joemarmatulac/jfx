@@ -53,9 +53,9 @@
          </font>
       </Label>
       <JFXButton layoutX="75.0" layoutY="210.0" prefHeight="27.0" prefWidth="121.0" styleClass="exitButton" text="Sign up now" textFill="#e7b7b7" />
-      <Label layoutX="806.0" layoutY="3.0" onMouseClicked="#handleOnclose" text="x" textFill="#e1a9a9">
+      <Label layoutX="805.0" layoutY="-6.0" onMouseClicked="#handleOnclose" text="x" textFill="#e8d2d2">
          <font>
-            <Font name="System Bold" size="14.0" />
+            <Font name="System Bold" size="24.0" />
          </font>
       </Label>
    </children>
